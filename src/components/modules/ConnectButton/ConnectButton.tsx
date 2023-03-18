@@ -10,7 +10,7 @@ const ConnectButton = () => {
   const { disconnectAsync } = useDisconnect();
   const { isConnected } = useAccount();
   const { signMessageAsync } = useSignMessage();
-  const toast = useToast();
+  const toast = useToast(); 
   const { data } = useSession();
   const { requestChallengeAsync } = useAuthRequestChallengeEvm();
 
